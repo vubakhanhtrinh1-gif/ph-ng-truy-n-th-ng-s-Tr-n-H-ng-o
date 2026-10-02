@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <!-- Definitions for text paths -->
+  <defs>
+    <!-- Left path for "TRƯỜNG THPT" -->
+    <path id="path-left" d="M 32 94 L 92 34" fill="none" />
+    <!-- Right path for "A TRẦN HƯNG ĐẠO" -->
+    <path id="path-right" d="M 108 34 L 168 94" fill="none" />
+    <!-- Subtle drop shadow -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="#000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Outer white circle badge -->
+  <circle cx="100" cy="100" r="95" fill="#ffffff" stroke="#c0c0c0" stroke-width="1.2" />
+
+  <!-- Outer diamond outline -->
+  <polygon points="100,14 186,100 100,186 14,100" fill="#ffffff" stroke="#111111" stroke-width="2" />
+
+  <!-- Red chevron band at the top -->
+  <polygon points="100,14 186,100 156,100 100,44 44,100 14,100" fill="#de2222" stroke="#111111" stroke-width="1.2" />
+
+  <!-- Top 5-pointed yellow star -->
+  <polygon points="100,20 102.4,26 108.5,26.4 103.8,30.2 105.4,36.2 100,32.6 94.6,36.2 96.2,30.2 91.5,26.4 97.6,26" fill="#fcd116" stroke="#b8860b" stroke-width="0.5" />
+
+  <!-- Text: TRƯỜNG THPT on left chevron -->
+  <text font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="9.5" fill="#111111" letter-spacing="0.5">
+    <textPath href="#path-left" startOffset="50%" text-anchor="middle">
+      TRƯỜNG THPT
+    </textPath>
+  </text>
+
+  <!-- Text: A TRẦN HƯNG ĐẠO on right chevron -->
+  <text font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="9" fill="#111111" letter-spacing="0.4">
+    <textPath href="#path-right" startOffset="50%" text-anchor="middle">
+      A TRẦN HƯNG ĐẠO
+    </textPath>
+  </text>
+
+  <!-- Center open book -->
+  <path d="M 100,98 Q 86,92 72,97 L 72,136 Q 86,131 100,137 Z" fill="#ffffff" stroke="#111111" stroke-width="1.5" />
+  <path d="M 100,98 Q 114,92 128,97 L 128,136 Q 114,131 100,137 Z" fill="#ffffff" stroke="#111111" stroke-width="1.5" />
+  <!-- Book spine line -->
+  <line x1="100" y1="98" x2="100" y2="137" stroke="#111111" stroke-width="1.5" />
+
+  <!-- Vertical "1 9 6 6" on right page -->
+  <text x="114" y="107" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="8" fill="#de2222" text-anchor="middle">1</text>
+  <text x="114" y="116" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="8" fill="#de2222" text-anchor="middle">9</text>
+  <text x="114" y="125" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="8" fill="#de2222" text-anchor="middle">6</text>
+  <text x="114" y="134" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="8" fill="#de2222" text-anchor="middle">6</text>
+
+  <!-- Stylized Yellow Pagoda / Tower on left page -->
+  <g id="tower">
+    <!-- Base -->
+    <polygon points="80,136 92,136 90,126 82,126" fill="#f7b700" stroke="#111111" stroke-width="1" />
+    <!-- Tier 2 -->
+    <polygon points="81,126 91,126 89.5,116 82.5,116" fill="#f7b700" stroke="#111111" stroke-width="1" />
+    <!-- Tier 3 -->
+    <polygon points="82,116 90,116 88.5,106 83.5,106" fill="#f7b700" stroke="#111111" stroke-width="1" />
+    <!-- Tier 4 -->
+    <polygon points="83,106 89,106 87.5,96 84.5,96" fill="#f7b700" stroke="#111111" stroke-width="1" />
+    <!-- Spire -->
+    <polygon points="84,96 88,96 86,86" fill="#f7b700" stroke="#111111" stroke-width="1" />
+    <!-- Horizontal lattice lines -->
+    <line x1="82" y1="131" x2="90" y2="131" stroke="#ffffff" stroke-width="0.8" />
+    <line x1="82.5" y1="121" x2="89.5" y2="121" stroke="#ffffff" stroke-width="0.8" />
+    <line x1="83.5" y1="111" x2="88.5" y2="111" stroke="#ffffff" stroke-width="0.8" />
+    <line x1="84.5" y1="101" x2="87.5" y2="101" stroke="#ffffff" stroke-width="0.8" />
+  </g>
+
+  <!-- Torch in the center -->
+  <g id="torch">
+    <!-- Torch handle -->
+    <polygon points="98,90 102,90 101.5,124 98.5,124" fill="#1b253b" stroke="#111111" stroke-width="1.2" />
+    <!-- Torch rim -->
+    <ellipse cx="100" cy="90" rx="3.5" ry="1.5" fill="#fcd116" stroke="#111111" stroke-width="1" />
+    <!-- Flame -->
+    <path d="M 100,89 C 94,84 94,76 98,72 C 98.5,74 99.5,75 100,75 C 100.5,71 100,67 98.5,64 C 104,68 106,75 105,80 C 104.5,78.5 103,77.5 102,78 C 103.5,82 103,87 100,89 Z" fill="#de2222" stroke="#900" stroke-width="0.8" />
+    <!-- Inner yellow flame core -->
+    <path d="M 100,88 C 97.5,84 97.5,79 99.5,77 C 100,78 100.5,79 101,79 C 101.5,76 101,73 100,71 C 103,74 104,78 103.5,82 C 102.5,86 101.5,87 100,88 Z" fill="#ffe042" />
+  </g>
+
+  <!-- Concentric black chevron lines in lower diamond -->
+  <g stroke="#111111" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="38,106 100,168 162,106" />
+    <polyline points="48,114 100,166 152,114" />
+    <polyline points="58,122 100,164 142,122" />
+  </g>
+
+  <!-- Red ribbon at the bottom apex with "NINH BÌNH" -->
+  <g id="ribbon" filter="url(#shadow)">
+    <!-- Ribbon banner tails -->
+    <polygon points="76,160 84,154 84,166" fill="#b31217" stroke="#111111" stroke-width="0.8" />
+    <polygon points="124,160 116,154 116,166" fill="#b31217" stroke="#111111" stroke-width="0.8" />
+    <!-- Central ribbon body -->
+    <path d="M 80,154 Q 100,150 120,154 L 120,168 Q 100,164 80,168 Z" fill="#de2222" stroke="#111111" stroke-width="1.2" />
+    <!-- Text: NINH BÌNH -->
+    <text x="100" y="163" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="6.8" fill="#ffffff" text-anchor="middle" letter-spacing="0.6">NINH BÌNH</text>
+  </g>
+</svg>

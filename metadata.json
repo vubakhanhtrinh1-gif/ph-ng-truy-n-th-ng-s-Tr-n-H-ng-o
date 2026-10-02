@@ -1,0 +1,6 @@
+{
+  "name": "TRƯỜNG THPT A TRẦN HƯNG ĐẠO — Sảnh Chờ Số",
+  "description": "Không gian sảnh chờ ảo — Phòng Truyền thông Số Trường THPT A Trần Hưng Đạo. Dấu mốc 60 năm (1966 — 2026).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
