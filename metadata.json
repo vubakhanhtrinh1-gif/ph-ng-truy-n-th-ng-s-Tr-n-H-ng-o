@@ -1,6 +1,6 @@
 {
-  "name": "TRƯỜNG THPT A TRẦN HƯNG ĐẠO — Sảnh Chờ Số",
-  "description": "Không gian sảnh chờ ảo — Phòng Truyền thông Số Trường THPT A Trần Hưng Đạo. Dấu mốc 60 năm (1966 — 2026).",
+  "name": "Phòng Truyền Thông Số Ảo - Phòng Lịch Sử & Truyền Thống",
+  "description": "Không gian bảo tàng số ảo cho nhà trường với Phòng Lịch sử & Truyền thống trang trọng, tượng Bác Hồ trung tâm, 3 giai đoạn lịch sử và quyển sách số tương tác.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
